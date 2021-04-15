@@ -32,13 +32,13 @@ module.exports = {
 		path: resolve(__dirname, 'dst'),
 	},
 	plugins: [
-		new HtmlWebpackPlugin({
-			title: 'Snack Snatcher',
-			favicon: './dst/assets/favicon.png'
-		}),
 		new CleanPlugin(),
 		new CopyPlugin({
 			patterns: [{ from: './src/assets', to: 'assets'}]
+		}),
+		new HtmlWebpackPlugin({
+			title: 'Snack Snatcher',
+			favicon: './src/assets/favicon.png'
 		})
 	]
 };
