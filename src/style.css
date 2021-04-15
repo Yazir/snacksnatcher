@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'The Impostor';
+    src: url('./fonts/the-impostor.ttf');
+}
+
+* {
+    background-color: rgb(67, 61, 68);
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
