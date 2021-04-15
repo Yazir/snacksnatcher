@@ -65,9 +65,11 @@ export class MainScene implements Scene {
                 this.player.tick(dt)
                 this.snackManager.tick(dt)
 
-                const collectedAmount = this.snackManager.collectAtOverlapWith(this.player.aabb)
-                if (collectedAmount > 0) {
-                    this.gameplayManager.score += collectedAmount
+                {
+                    const collectedAmount = this.snackManager.collectAtOverlapWith(this.player.aabb)
+                    if (collectedAmount > 0) {
+                        this.gameplayManager.score += collectedAmount
+                    }
                 }
 
                 this.handleResetInput()
