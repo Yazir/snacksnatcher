@@ -1,3 +1,6 @@
+# Snacksnatcher
+Reference for **PIXI + Webpack + Typescript** setup
+
 ## Usage
 1. npm install
 2. npm start
