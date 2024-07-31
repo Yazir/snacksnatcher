@@ -1,5 +1,6 @@
 # Snacksnatcher
 Reference for **PIXI + Webpack + Typescript** setup
+
 [Play in browser](https://yazaa.itch.io/snacksnatcher) (itch.io)
 
 ## Usage
